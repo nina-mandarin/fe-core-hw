@@ -1,0 +1,24 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conact-title {
+  width: 100%;
+  margin-bottom: 3.25rem;
+  font-size: 2rem;
+  font-family: var(--title-font-family);
+  text-transform: uppercase;
+  color: var(--main-blue-color-text);
+}
+
+.contact-map {
+  flex-basis: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.map-image {
+  width: 65%;
+}

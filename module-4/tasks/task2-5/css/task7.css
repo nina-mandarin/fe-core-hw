@@ -1,0 +1,69 @@
+.page {
+  padding: 10px;
+  border: 2px solid hsl(0, 3%, 59%);
+}
+
+.main7 {
+  float: left;
+  width: 68%;
+}
+
+.aside7 {
+  float: right;
+  width: 26%;
+}
+
+.image7 {
+  float: left;
+  margin-right: 24px;
+}
+
+.title {
+  margin-bottom: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: #43506c;
+}
+
+.subtitle {
+  margin-bottom: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #263555;
+}
+
+.list-item7:nth-of-type(1n+2) {
+  margin-top: 36px;
+}
+
+.text-7 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #4e5050;
+}
+
+.list7 {
+  list-style: none;
+}
+
+ .list-item7:nth-of-type(1) .subtitle::before {
+  display: inline-block;
+  content: url("../img/1.png");
+  vertical-align: text-top;
+}
+
+.list-item7:nth-of-type(2) .subtitle::before {
+  display: inline-block;
+  content: url("../img/2.png");
+  vertical-align: text-top;
+}
+
+.list-item7:nth-of-type(3) .subtitle::before {
+  display: inline-block;
+  content: url("../img/3.png");
+  vertical-align: text-top;
+}
+
+.list-item7>.text-7 {
+  margin-left: 8%;
+}

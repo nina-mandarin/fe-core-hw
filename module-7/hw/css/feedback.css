@@ -1,0 +1,36 @@
+.contact-feedback {
+  flex-basis: 24%;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.contact-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #d4d0d0;
+  background-color: #fcfafa;
+  font-size: 0.813rem;
+  line-height: 1.625rem;
+  font-family: var(--font-family-subtitle);
+  color: var(--main-blue-color-text);
+}
+
+.contact-but {
+  border: 1px solid #d4d0d0;
+  padding: 0 1.3rem;
+  background-color: #fcfafa;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1.625rem;
+  font-family: var(--font-family-subtitle);
+  color: var(--main-blue-color-text);
+}
+
+.contact-form>.contact-but:last-of-type {
+  margin-left: 1rem;
+}

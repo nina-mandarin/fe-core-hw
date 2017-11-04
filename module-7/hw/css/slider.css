@@ -1,0 +1,31 @@
+.slider {
+  position: relative;
+  font-family: var(--title-font-family);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.slider-heading {
+  padding: 0 0.625rem;
+  border: 1px solid #ebece9;
+  position: absolute;
+  bottom: 52%;
+  font-size: 1.375rem;
+  line-height: 2.5;
+  color: var(--main-blue-color-text);
+  background-color: #fff;
+}
+
+.slider-subject {
+  padding: 0 0.625rem;
+  position: absolute;
+  bottom: 44%;
+  font-size: 2.125rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #38afe5;
+}
+
+.slider-img {
+  width: 100%;
+}

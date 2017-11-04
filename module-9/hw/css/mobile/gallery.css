@@ -1,0 +1,42 @@
+.gallery-title {
+  margin-bottom: 3rem;
+  font-weight: normal;
+}
+
+.gallery-image {
+  position: relative;
+}
+
+.gallery-images>.row [class*="col-"] {
+  margin-bottom: 2.625rem;
+}
+
+.gallery-images>.row [class*="col-"]:nth-of-type(6) {
+  margin-bottom: 0px;
+}
+
+.gallery-images>.row [class*="col-"]:nth-of-type(n+7) {
+  display: none;
+}
+
+.gallery-image:hover>.gallery-img {
+  filter: brightness(0.7);
+}
+
+.gallery-zoom {
+  display: none;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../images/zoom.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: transparent;
+}
+
+.gallery-image:hover>.gallery-zoom {
+  display: block;
+}

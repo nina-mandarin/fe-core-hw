@@ -1,0 +1,114 @@
+.tab-news>.row [class*="col-"]:first-of-type {
+  margin-bottom: px-to-rem(42px);
+  @media (min-width: px-to-rem(1200px)) {
+    margin-bottom: 0;
+  }
+}
+.tab-list {
+  display: flex;
+  list-style: none;
+}
+
+.tab-item {
+  @include block-size(20%, auto);
+  border: 1px solid #dedbdb;
+  border-bottom-color: transparent;
+  text-align: center;
+}
+
+.tab-link {
+  display: block;
+  @include font($font-family-title, px-to-rem(13px), 1.5, #8f94a3);
+  text-decoration: none;
+  text-transform: uppercase;
+  &:hover {
+    color: #38afe5;
+  }
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-torem(22px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(19px);
+  }
+}
+
+//Article
+.tab-artilces {
+  @include padding(px-to-rem(33px), px-to-rem(25px), px-to-rem(33px), px-to-rem(25px));
+  border: 1px solid #dedbdb;
+  @media (min-width: px-to-rem(768px)) {
+    @include padding(px-to-rem(42px), px-to-rem(18px), px-to-rem(40px), px-to-rem(18px));
+  }
+}
+
+.tab-article {
+  @media (min-width: px-to-rem(768px)) {
+    @include flex($ai: flex-start);
+    &:first-of-type {
+      margin-bottom: px-to-rem(22px);
+    }
+  }
+}
+
+.tab-img {
+  margin-bottom: -10%;
+  clip-path: polygon(0% 10%, 100% 10%, 100% 80%, 0% 80%);
+  @media (min-width: px-to-rem(768px)) {
+    flex-basis: 35%;
+    margin-top: 0;
+    margin-bottom: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.tab-post {
+  @media (min-width: px-to-rem(768px)) {
+    flex-basis: 60%;
+  }
+}
+
+.tab-subtitle {
+  margin-bottom: px-to-rem(12px);
+  @include font($font-family-text, px-to-rem(10px), 1.5, $main-color-text);
+  font-weight: normal;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-torem(17px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(15px);
+  }
+}
+
+.tab-text {
+  @include font($font-family-text, px-to-rem(8px), 1.5, #4e5050);
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-torem(12px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(10px);
+  }
+}
+
+.tab-text--dark {
+  color: #000;
+  margin-bottom: px-to-rem(22px);
+}
+
+.tab-post-link {
+  display: inline;
+  @include font($font-family-text, px-to-rem(8px), 1.5, #fa7e7e);
+  text-decoration: none;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(12px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(10px);
+  }
+}
+
+.tab-post>.button-details {
+  margin-left: auto;
+  @media (min-width: px-to-rem(768px)) {
+    margin-top: px-to-rem(16px);
+  }
+}

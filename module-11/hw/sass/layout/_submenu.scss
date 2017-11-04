@@ -1,0 +1,46 @@
+.submenu-list {
+  display: none;
+  position: absolute;
+  left: 20%;
+  z-index: 2;
+  padding: 0.375rem;
+  border-radius: 0.125rem;
+  background-color: #f2f2f3;
+  list-style: none;
+  text-align: right;
+  @media (min-width: px-to-rem(768px)){
+    left: 30%;
+    padding: 0.625rem;
+  }
+  @media (min-width: px-to-rem(1200px)){
+    left: 0;
+    padding: 0.625rem;
+    text-align: center;
+  }
+}
+
+.submenu-item {
+  @include font($font-family-title, 0.875rem, 1.5, #6b7488);
+  text-transform: uppercase;
+  @media (min-width: px-to-rem(768px)){
+    font-size: 1rem;
+  }
+  @media (min-width: px-to-rem(1200px)){
+    font-size: 1.25rem;
+  }
+}
+
+.submenu:hover>.submenu-list {
+  display: block;
+}
+
+.submenu-list::before {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 50%;
+  border-style: solid;
+  border-width: 0 0.125rem 0.25rem 0.125rem;
+  border-color: transparent transparent #f2f2f3 transparent;
+}

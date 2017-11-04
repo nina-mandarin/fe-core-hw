@@ -1,0 +1,24 @@
+@keyframes rotate-left {
+  from {transform: rotate(45deg);}
+  to { transform: rotate(360deg);}
+}
+
+.post-subtitle--hover:hover {
+  transition-duration: 0.3s;
+  font-size: 1.125rem;
+}
+
+.post-img--hover:hover {
+  animation-name: rotate-left;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+}
+
+.post-text--hover:hover {
+  transition-duration: 0.3s;
+  color: #0DA38A;
+}
+
+.details-link--hover:hover {
+  transform: scale(2);
+}

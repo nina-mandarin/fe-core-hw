@@ -1,0 +1,8 @@
+@media (min-width: 48rem) {
+  .about-subtitle {
+    font-size: 1rem;
+  }
+  .about-text {
+    font-size: 0.875rem;
+  }
+}

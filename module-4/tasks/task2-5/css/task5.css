@@ -1,0 +1,37 @@
+.subject {
+  margin-bottom: 30px;
+  border: 2px solid hsl(0, 3%, 59%);
+}
+
+.list5 {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.subject p {
+  margin-bottom: 10px;
+}
+
+.subject p:last-child {
+  margin-bottom: 0px;
+}
+
+#text1:target {
+  color: #f00;
+}
+
+#text2:target {
+  color: #f00;
+}
+
+#text3:target {
+  color: #f00;
+}
+
+#text4:target {
+  color: #f00;
+}
+
+#text5:target {
+  color: #f00;
+}

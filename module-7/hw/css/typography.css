@@ -1,0 +1,7 @@
+h2 {
+  margin-bottom: 3.125rem;
+  font-family: var(--title-font-family);
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--main-blue-color-text);
+}

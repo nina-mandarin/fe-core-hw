@@ -1,0 +1,78 @@
+/* Width from 768px (48rem)*/
+
+@media (min-width: 48rem) {
+  .wrapper {
+    min-width: 48rem;
+  }
+  /*Menu*/
+  .menu-link {
+    font-size: 1.5rem;
+  }
+  .submenu-list {
+    padding: 0.625rem;
+  }
+  .submenu-item {
+    font-size: 1rem;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 2.75rem;
+  }
+  /*Gallery*/
+  .gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery-image {
+    margin-bottom: 2.5rem;
+    flex-basis: 48%;
+  }
+  .gallery-image:nth-of-type(6) {
+    margin-bottom: 2.5rem;
+  }
+  .gallery-image:nth-of-type(n+7) {
+    display: block;
+    margin-bottom: 0px;
+  }
+  .gallery-image:nth-of-type(n+9) {
+    display: none;
+  }
+  /*Footer*/
+  .footer-box {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-list {
+    flex-basis: 60%;
+  }
+  .footer-item {
+    font-size: 1rem;
+  }
+  .footer-contacts {
+    flex-basis: 18%;
+    margin-top: 0;
+    display: block;
+  }
+  .contact-inner {
+    font-size: 1.125rem;
+  }
+  .contant-tel {
+    margin-left: 0;
+    font-size: 0.75rem;
+  }
+  .contant-telephone {
+    margin-top: 1rem;
+  }
+  .contant-telephone::before {
+    display: none;
+  }
+  .contact-email::before {
+    display: none;
+  }
+  .signature {
+    font-size: 0.75rem;
+  }
+}

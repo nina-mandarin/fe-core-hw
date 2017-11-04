@@ -1,0 +1,10 @@
+/*Agency profile*/
+
+.profile {
+  margin-bottom: 5.25rem;
+}
+
+.profile-img {
+  margin-bottom: -45%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 35%, 0% 35%);
+}

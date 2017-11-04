@@ -1,0 +1,9 @@
+@media (min-width: 48rem) {
+  .tour-form-unit-first {
+    width: 100%;
+    margin-left: 0;
+  }
+  .tour-forms>.row>[class*="col-md-8"] {
+    padding-top: 0;
+  }
+}

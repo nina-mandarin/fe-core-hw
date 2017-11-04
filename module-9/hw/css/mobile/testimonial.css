@@ -1,0 +1,51 @@
+/*Testimonial*/
+
+.testimonial {
+  padding-top: 3.375rem;
+}
+
+.testimonial>.about-subtitle {
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.quote {
+  position: relative;
+  width: 66%;
+  margin-bottom: 2.25rem;
+  margin-left: 17%;
+  padding: 0.875rem;
+  border: 1px solid #dedbdb;
+  border-radius: 0.25rem;
+}
+
+.quote::before,
+.quote::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 1rem solid transparent;
+  border-top: 1rem solid #dedbdb;
+}
+
+.quote::after {
+  border-top: 1rem solid #fff;
+  top: 99%;
+}
+
+.testimonial>.about-subtitle:nth-of-type(2) {
+  margin: 0;
+}
+
+.about-subtitle>.about-text {
+  display: block;
+  font-size: 0.625rem;
+}
+
+.author {
+  text-align: center;
+  line-height: 1.5;
+}

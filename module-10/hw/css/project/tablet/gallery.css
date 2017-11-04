@@ -1,0 +1,27 @@
+@media (min-width: 48rem) {
+  .gallery {
+    padding-top: 5.125rem;
+    padding-right: 2.875rem;
+    padding-bottom: 4.75rem;
+    padding-left: 2.875rem;
+  }
+  .gallery__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery__image {
+    flex-basis: 45%;
+    margin-bottom: 2.5rem;
+  }
+  .gallery__image--sixth {
+    margin-bottom: 2.5rem;
+  }
+  .gallery__image--mob-display {
+    display: block;
+    margin-bottom: 0px;
+  }
+  .gallery__image--tab-display {
+    display: none;
+  }
+}

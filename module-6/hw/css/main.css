@@ -1,0 +1,138 @@
+.main {
+  padding: 5.5rem 2.8rem 4.5rem 3rem;
+  background-color: #fff;
+}
+
+.about-title {
+  margin-bottom: 2.5rem;
+  font-family: var(--title-font-family);
+  font-size: 1.75rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--main-blue-color-text);
+}
+
+.about-subtitle {
+  margin-bottom: 1rem;
+  font-family: var(--font-family-subtitle);
+  font-size: 0.9rem;
+  color: var(--main-blue-color-text);
+}
+
+.about-text {
+  font-family: var(--font-family-text);
+  font-size: 0.8rem;
+  color: #4e5050;
+}
+
+
+/*Agency profile*/
+
+.profile {
+  margin-bottom: 5.25rem;
+}
+
+.profile-img {
+  float: left;
+  width: 47%;
+  margin-right: 1.13rem;
+}
+
+
+/*Our principles*/
+
+.principles {
+  padding-bottom: 3.3rem;
+  border-bottom: 0.06rem solid #dedbdb;
+}
+
+.principles-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  counter-reset: principles-list;
+}
+
+.principles-item>.about-text {
+  margin-left: 2.25rem;
+}
+
+.principles-item::before {
+  display: block;
+  float: left;
+  margin-right: 0.75rem;
+  counter-increment: principles-list;
+  content: counter(principles-list);
+  padding: 0.3rem 0.6rem;
+  border-radius: 50%;
+  background-color: #38afe5;
+  color: #fff;
+}
+
+
+/*What we offer*/
+
+.offer {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-offer {
+  flex-basis: 68%;
+}
+
+.offer-list {
+  margin-top: 2rem;
+  list-style: none;
+  column-count: 2;
+}
+
+.offer-item {
+  font-family: var(--font-family-subtitle);
+  font-size: 0.9rem;
+  color: var(--main-blue-color-text);
+  line-height: 2.5rem;
+}
+
+.offer-item::before {
+  display: inline-block;
+  content: "\2192";
+  margin-right: 0.6rem;
+  color: #38afe5;
+}
+
+.testimonial {
+  flex-basis: 30%;
+}
+
+.testimonial>.about-title {
+  margin-bottom: 0.8rem;
+}
+
+.quote {
+  margin-bottom: 3.75rem;
+  padding: 1.6rem 1.3rem 1.4rem 1.5rem;
+  border: 0.06rem solid #dedbdb;
+  border-radius: 0.25rem;
+}
+
+.quote::before {
+  display: inline-block;
+  content: '\201C';
+}
+
+.quote::after {
+  display: inline-block;
+  content: '\201D';
+}
+
+.about-subtitle>.about-text {
+  display: inline-block;
+  font-size: 0.7rem;
+}
+
+.author {
+  text-align: center;
+  line-height: 1.9rem;
+}

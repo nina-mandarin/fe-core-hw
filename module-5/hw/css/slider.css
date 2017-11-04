@@ -1,0 +1,39 @@
+.page-content {
+  padding: 60px 60px 56px;
+  background-color: #ffffff;
+}
+
+
+/*class slider*/
+
+.slider {
+  position: relative;
+  font-family: "Pathway Gothic One";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.slider-heading {
+  padding: 0 10px;
+  border: 1px solid #ebece9;
+  position: absolute;
+  bottom: 52%;
+  font-size: 22px;
+  line-height: 2.5;
+  color: #263555;
+  background-color: #fff;
+}
+
+.slider-subject {
+  padding: 0 10px;
+  position: absolute;
+  bottom: 44%;
+  font-size: 34px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #38afe5;
+}
+
+.slider-img {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+.submenu {
+  position: absolute;
+  display: none;
+  width: 68px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  list-style: none;
+  text-align: center;
+  transform: translate(-10%, 0%);
+}
+
+.submenu-item {
+  font-family: "Pathway Gothic One";
+  font-size: 20px;
+  color: #6b7488;
+  text-transform: uppercase;
+}
+
+.about:hover>.submenu {
+  display: block;
+}
+
+.submenu::before {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 50%;
+  transform: translate(50%, 0%);
+  border-style: solid;
+  border-width: 0 2px 4px 2px;
+  border-color: transparent transparent #fff transparent;
+}

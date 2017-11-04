@@ -1,0 +1,25 @@
+/*What we offer*/
+
+.offer {
+  padding-top: 3.25rem;
+}
+
+.offer-list {
+  margin-top: 2rem;
+  list-style: none;
+  column-count: 2;
+}
+
+.offer-item {
+  font-family: var(--font-family-subtitle);
+  font-size: 0.875rem;
+  color: var(--main-blue-color-text);
+  line-height: 2;
+}
+
+.offer-item::before {
+  display: inline-block;
+  content: "\2192";
+  margin-right: 0.6rem;
+  color: #38afe5;
+}

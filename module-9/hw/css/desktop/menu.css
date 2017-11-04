@@ -1,0 +1,33 @@
+@media (min-width: 75rem) {
+  .header {
+    padding-top: 5rem;
+    padding-right: 6.125rem;
+    padding-bottom: 6rem;
+    padding-left: 6.125rem;
+  }
+  .menu-list {
+    width: 100%;
+    margin: 0;
+  }
+  .menu-item {
+    flex-basis: 0;
+    margin-right: 3.625rem;
+  }
+  .menu-item:nth-of-type(3) {
+    margin-right: 14.875rem;
+  }
+  .menu-item:last-of-type {
+    margin-right: 0;
+  }
+  .menu-link {
+    font-size: 1.75rem;
+  }
+  .submenu-list {
+    left: 0;
+    padding: 0.625rem;
+    text-align: center;
+  }
+  .submenu-item {
+    font-size: 1.25rem;
+  }
+}

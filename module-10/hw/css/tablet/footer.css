@@ -1,0 +1,56 @@
+
+@media (min-width: 48rem) {
+  .footer-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 2.25rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+  .footer-box__list {
+    -webkit-flex-basis: 66%;
+    -ms-flex-preferred-size: 66%;
+    flex-basis: 66%;
+  }
+  .footer-box__contacts {
+    -webkit-flex-basis: 20%;
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+  }
+  .footer-box__item {
+    font-size: 1rem;
+  }
+  .footer-box__contacts {
+    margin-top: 0;
+    display: block;
+  }
+  .footer-box__inner {
+    font-size: 1.125rem;
+  }
+  .footer-box__date {
+    margin-left: 0;
+    font-size: 0.75rem;
+  }
+  .footer-box__date--mt {
+    margin-top: 1rem;
+  }
+  .footer-box__date--telephone::before {
+    display: none;
+  }
+  .footer-box__date--email::before {
+    display: none;
+  }
+  .social__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .footer__signature {
+    font-size: 0.75rem;
+  }
+}

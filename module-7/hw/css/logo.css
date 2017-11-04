@@ -1,0 +1,10 @@
+.logo {
+  padding: 2.6rem 1.8rem;
+  background-color: #fff;
+  border-radius: 50%;
+  font-family: "Dorsa";
+  font-size: 3.75rem;
+  color: var(--main-blue-color-text);
+  text-decoration: none;
+  text-transform: uppercase;
+}

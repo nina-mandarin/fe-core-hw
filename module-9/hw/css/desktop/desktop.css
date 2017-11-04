@@ -1,0 +1,12 @@
+/* Width from 1200px (75rem)*/
+
+@import 'menu.css';
+@import 'logo.css';
+@import 'gallery.css';
+@import 'tours.css';
+@import 'tours-forms.css';
+@import 'button.css';
+@import 'profile.css';
+@import 'principles.css';
+@import 'offer.css';
+@import 'testimonial.css';

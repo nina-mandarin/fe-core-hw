@@ -1,0 +1,82 @@
+.tabs-newsletter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs {
+  flex-basis: 66%;
+}
+
+.tab-list {
+  display: flex;
+  list-style: none;
+}
+
+.tab-link {
+  display: block;
+  padding: 0 1.875rem;
+  border: 1px solid #dedbdb;
+  border-bottom-color: transparent;
+  font-family: var(--title-font-family);
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8f94a3;
+  line-height: 1.5;
+}
+
+.tab-artilces {
+  padding: 2.625rem 1rem;
+  border: 1px solid #dedbdb;
+}
+
+.tab-article {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tab-img {
+  width: 35%;
+}
+
+.tab-post {
+  flex-basis: 62%;
+}
+
+.tab-subtitle {
+  margin-bottom: 1.875rem;
+  font-family: var(--font-family-text);
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: var( --main-blue-color-text);
+}
+
+.tab-text {
+  font-family: var(--font-family-text);
+  font-size: 0.625rem;
+  color: #4e5050;
+}
+
+.tab-text--dark {
+  color: #000;
+  margin-bottom: 1.375rem;
+}
+
+.tab-post-link {
+  display: inline;
+  font-family: var(--font-family-text);
+  font-size: 0.625rem;
+  text-decoration: none;
+  color: #fa7e7e;
+}
+
+.tab-link:hover {
+  color: #38afe5;
+}
+
+.tab-post>.button-details {
+  margin-top: 1rem;
+  margin-left: auto;
+}

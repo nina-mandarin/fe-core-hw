@@ -1,0 +1,23 @@
+@media (min-width: 48rem) {
+  .tour>.row [class*="col-"]:nth-of-type(n+5) {
+    display: flex;
+  }
+  .tour-card {
+    width: 100%;
+  }
+  .tour>.row [class*="col-"]:nth-of-type(4) {
+    margin-bottom: 3.125rem;
+  }
+  .tour>.row [class*="col-"]:nth-last-of-type(-n+2) {
+    margin-bottom: 0;
+  }
+  .tour-card-subtitle {
+    font-size: 0.875rem;
+  }
+  .tour-text {
+    font-size: 0.75rem;
+  }
+  .tour-text-price {
+    font-size: 1rem;
+  }
+}

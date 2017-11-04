@@ -1,0 +1,35 @@
+body {
+  min-height: 100vh;
+  padding-bottom: px-to-rem(22px);
+  background-color: #90CAF9;
+  @include background-img ('../images/background.jpg');
+  font-family: $font-family-text;
+  font-size: px-to-rem(16px);
+}
+
+.container  {
+  min-width: px-to-rem(480px);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.main {
+  @include padding(3.625rem, 2.5rem, 4.5rem, 2.5rem);
+  background-color: #fff;
+  @media (min-width: px-to-rem(768px)) {
+    @include padding(5.125rem, 2.875rem, 4.75rem, 2.875rem);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    @include padding(5.625rem, 3.75rem, 6.375rem, 3.75rem);
+  }
+}

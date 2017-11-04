@@ -1,0 +1,14 @@
+.color {
+  list-style: none;
+}
+
+.color-item {
+  margin-bottom: 4px;
+  padding: 2px;
+  border: 2px solid #888B8F;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.color:last-child {
+  margin-bottom: 0px;
+}

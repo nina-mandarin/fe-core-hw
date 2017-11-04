@@ -1,0 +1,27 @@
+@media (min-width: 75rem) {
+  .tour>.row [clas*="col-"] {
+    margin-bottom: 2.375rem;
+  }
+  .tours {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tour-content {
+    padding-bottom: 0;
+  }
+  .tour-card-subtitle {
+    font-size: 0.75rem;
+  }
+  .tour-img {
+    flex-basis: 48%;
+  }
+  .tour-desc {
+    flex-basis: 45%;
+  }
+  .tour-text {
+    font-size: 0.625rem;
+  }
+  .tour-text-price {
+    font-size: 0.875rem;
+  }
+}

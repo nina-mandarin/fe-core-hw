@@ -1,0 +1,107 @@
+.distination {
+  @include padding(px-to-rem(80px), 0, px-to-rem(72px),0);
+  @media (min-width: px-to-rem(768px)) {
+    padding-top: px-to-rem(60px);
+    
+  }
+}
+
+.distination-title {
+  margin-bottom: px-to-rem(26px);
+}
+
+.distination>.row [class*="col-"] {
+  margin-bottom: px-to-rem(40px);
+  @media (min-width: px-to-rem(768px)) {
+    margin-bottom: 0;
+  }
+}
+
+.distination>.row [class*="col-"]:last-of-type {
+  margin-bottom: 0;
+  @media (min-width: px-to-rem(768px)){
+    display: none;
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    display: block;
+  }
+}
+
+.destination-card {
+  position: relative;
+}
+
+.distination-image {
+  margin-top: -25%;
+  margin-bottom: -25%;
+  clip-path: polygon(0% 25%, 100% 25%, 100% 75%, 0% 75%);
+  @media (min-width: px-to-rem(768px)) {
+    margin-top: 0;
+    margin-bottom: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.destination-info {
+  display: none;
+  @include block-size(50%, 50%);
+  @include padding(px-to-rem(12px), px-to-rem(12px), px-to-rem(12px), px-to-rem(6px));
+  position: absolute;
+  top: 25%;
+  background-color: #193149;
+  @media (min-width: px-to-rem(768px)) {
+    @include block-size(50%, 100%);
+    top: 0%;
+  }
+}
+
+.distination-subtitle {
+  margin-bottom: px-to-rem(14px);
+  @include font('Fjalla One', px-to-rem(20px), 1.5, #fff);
+  text-transform: uppercase;
+  text-align: center;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(24px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(30px);
+  }
+}
+
+.distination-text {
+  @include font($font-family-text, px-to-rem(11px), 1.5, #cbc6c6);
+  text-align: justify;
+  max-height: calc(11px*1.5*5);
+  overflow: hidden;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(12px);
+    max-height: calc(12px*1.5*8);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(10px);
+    max-height: calc(10px*1.5*8);
+  }
+}
+
+.distination-link {
+  position: absolute;
+  right: 10%;
+  top: 85%;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.destination-card:hover>.destination-info {
+  display: block;
+  animation-name: fadeInLeft;
+  animation-duration: 0.5s;
+}

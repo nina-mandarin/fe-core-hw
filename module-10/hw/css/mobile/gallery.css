@@ -1,0 +1,50 @@
+.gallery {
+  padding-top: 3.625rem;
+  padding-right: 2.5rem;
+  padding-bottom: 4.5rem;
+  padding-left: 2.5rem;
+  background-color: #fff;
+}
+
+.gallery__title {
+  margin-bottom: 3rem;
+  font-weight: normal;
+}
+
+.gallery__image {
+  position: relative;
+  margin-bottom: 2.625rem;
+}
+
+.gallery__image--sixth {
+  margin-bottom: 0px;
+}
+
+.gallery__image--mob-display {
+  display: none;
+}
+
+.image-card__zoom {
+  display: none;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: url("../../images/zoom.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: transparent;
+}
+
+.image-card--hover:hover .image-card__img {
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+}
+
+.image-card--hover:hover>.image-card__zoom {
+  display: block;
+}

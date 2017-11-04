@@ -1,0 +1,38 @@
+.header {
+  position: relative;
+  padding: 100px 88px 112px 99px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu-item {
+  float: left;
+  position: relative;
+  margin-right: 54px;
+  font-family: "Pathway Gothic One";
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.menu-item:nth-child(3) {
+  margin-right: 242px;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-family: "Pathway Gothic One";
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.menu-link:hover {
+  color: #263555;
+}

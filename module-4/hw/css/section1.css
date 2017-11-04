@@ -1,0 +1,61 @@
+.section-1 {
+  float: left;
+  width: 642px;
+  margin-right: 48px;
+}
+
+.page-offer {
+  margin-top: 116px;
+}
+
+.img {
+  float: left;
+  width: 56%;
+  /*width: 360px;*/
+  margin-right: 24px;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 32px;
+  color: #263555;
+}
+
+.page-offer .title {
+  margin-bottom: 66px;
+}
+
+.subtitle {
+  margin-bottom: 18px;
+  font-size: 15px;
+  color: #263555;
+}
+
+.page-offer .subtitle {
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 13px;
+  color: #4e5050;
+}
+
+.offer-list {
+  margin-top: 32px;
+  list-style: none;
+  column-count: 2;
+  column-gap: 42px;
+}
+
+.item {
+  font-size: 15px;
+  line-height: 39px;
+  color: #555e74;
+}
+
+.item::before {
+  display: inline-block;
+  content: "\2192";
+  margin-right: 10px;
+  color: #38afe5;
+}

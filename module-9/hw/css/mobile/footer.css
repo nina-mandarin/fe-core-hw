@@ -1,0 +1,104 @@
+.footer-box {
+  width: 100%;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  background-color: #30455b;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer-item {
+  flex-basis: 30%;
+  font-size: 0.875rem;
+  font-family: var(--font-family-secondary);
+  text-transform: uppercase;
+  line-height: 2;
+  color: #ebecee;
+}
+
+.footer-contacts {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-end;
+  font-family: var(--font-family-secondary);
+  color: #ebecee;
+}
+
+.contact-inner {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.contant-tel {
+  margin-left: 1rem;
+  font-size: 0.625rem;
+}
+
+.contant-telephone::before {
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+  background: url('../../images/contacts.png') -46px -10px;
+}
+
+.contact-email::before {
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+  background: url('../../images/contacts.png') -10px -10px;
+}
+
+
+/*Social icons*/
+
+.footer-social {
+  padding: 1.3rem 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+}
+
+.bg-twitter {
+  background: url('../../images/icon.png') -10px -10px;
+}
+
+.bg-facebook {
+  background: url('../../images/icon.png') -70px -10px;
+}
+
+.bg-google {
+  background: url('../../images/icon.png') -10px -70px;
+}
+
+.bg-instagram {
+  background: url('../../images/icon.png') -70px -70px;
+}
+
+.social-link:hover {
+  transform: scale(1.5);
+}
+
+.signature {
+  font-size: 0.625rem;
+  font-family: var(--font-family-text);
+  text-align: center;
+  color: #ecedee;
+}

@@ -1,0 +1,15 @@
+@media (min-width: 48rem) {
+  .header {
+    padding-bottom: 1.125rem;
+  }
+  .menu-list__link {
+    font-size: 1.5rem;
+  }
+  .submenu-list {
+    left: 30%;
+    padding: 0.625rem;
+  }
+  .submenu-list__item {
+    font-size: 1rem;
+  }
+}  

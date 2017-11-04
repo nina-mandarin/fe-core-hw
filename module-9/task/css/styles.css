@@ -1,0 +1,58 @@
+.box {
+  margin-bottom: 30px;
+}
+.box:last-of-type {
+  margin-bottom: 0;
+}
+
+/*Task 1*/
+.box-one {
+  height: 100px;
+  background-color: rgb(235, 232, 92);
+}
+.box-two {
+  height: 100px;
+  background-color: rgb(156, 235, 92);
+}
+
+/*Task 2*/
+.box-three {
+  height: 100px;
+  background-color: rgb(243, 198, 168);
+}
+.box-four {
+  height: 100px;
+  background-color: rgb(233, 161, 209);
+}
+.box-five {
+  height: 100px;
+  background-color: rgb(243, 198, 168);
+  color: rgb(141, 62, 9);
+}
+@media (min-width: 768px) {
+  .box-five {
+    color: #000;
+  }
+}
+
+/*Task 3*/
+.box-six {
+  height: 100px;
+  background-color: rgb(214, 226, 39);
+}
+.box-seven {
+  height: 100px;
+  background-color: rgb(57, 223, 79);
+}
+.box-eight {
+  height: 100px;
+  background-color: rgb(240, 216, 149);
+}
+.box-nine {
+  height: 100px;
+  background-color: rgb(241, 94, 205);
+}
+.box-ten {
+  height: 100px;
+  background-color: rgb(240, 216, 149);
+}

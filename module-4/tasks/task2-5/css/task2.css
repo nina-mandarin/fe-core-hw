@@ -1,0 +1,26 @@
+.list2 {
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.list-item2 {
+  margin-top: 24px;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.list-item2:first-child {
+  margin-top: 0px;
+}
+
+.link2 {
+  text-decoration: none;
+  color: #263555;
+}
+
+.list-item2::before {
+  display: inline-block;
+  content: "\2192";
+  margin-right: 16px;
+  color: #38afe5;
+}

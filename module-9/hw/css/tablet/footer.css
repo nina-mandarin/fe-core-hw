@@ -1,0 +1,29 @@
+
+@media (min-width: 48rem) {
+  .footer-item {
+    font-size: 1rem;
+  }
+  .footer-contacts {
+    margin-top: 0;
+    display: block;
+  }
+  .contact-inner {
+    font-size: 1.125rem;
+  }
+  .contant-tel {
+    margin-left: 0;
+    font-size: 0.75rem;
+  }
+  .contant-telephone {
+    margin-top: 1rem;
+  }
+  .contant-telephone::before {
+    display: none;
+  }
+  .contact-email::before {
+    display: none;
+  }
+  .signature {
+    font-size: 0.75rem;
+  }
+}

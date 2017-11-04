@@ -1,0 +1,13 @@
+/* Width from 768px (48rem)*/
+
+@import 'menu.css';
+@import 'logo.css';
+@import 'footer.css';
+@import 'gallery.css';
+@import 'tours.css';
+@import 'button.css';
+@import 'tours-forms.css';
+@import 'about.css';
+@import 'profile.css';
+@import 'offer.css';
+@import 'testimonial.css';

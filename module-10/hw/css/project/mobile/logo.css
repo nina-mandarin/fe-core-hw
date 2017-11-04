@@ -1,0 +1,15 @@
+.logo {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 2.125rem;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 100%;
+  font-family: 'Dorsa';
+  color: var(--main-blue-color-text);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}

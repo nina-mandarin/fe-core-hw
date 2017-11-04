@@ -1,0 +1,10 @@
+.container-five {
+  min-width: 320px;
+  max-width: 1200px;
+}
+
+.img-five {
+  display: block;
+  width: 100%;
+  height: auto;
+}

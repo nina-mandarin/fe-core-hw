@@ -1,0 +1,39 @@
+.blog {
+  display: flex;
+  justify-content: space-between;
+}
+.posts {
+  border: 1px solid #ccc;
+  flex-grow: 1;
+}
+
+.aside-title {
+  margin-bottom: 24px;
+  font-family: 'Pathway Gothic One';
+  font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #263555;
+}
+
+.categories {
+  margin-bottom: 40px;
+}
+
+.aside-list {
+  list-style: none;
+}
+
+.aside-item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 32px;
+  color: #263555;
+}
+
+.aside-item::before {
+  display: inline-block;
+  margin-right: 12px;
+  content: '\2192';
+  color: #56bbe9;
+}

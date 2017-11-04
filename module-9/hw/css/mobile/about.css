@@ -1,0 +1,21 @@
+.about-title {
+  margin-bottom: 2.5rem;
+  font-weight: normal;
+}
+
+.about-subtitle {
+  margin-bottom: 1rem;
+  font-family: var(--font-family-subtitle);
+  font-size: 0.875rem;
+  color: var(--main-blue-color-text);
+}
+
+.about-text {
+  font-family: var(--font-family-text);
+  font-size: 0.75rem;
+  color: #4e5050;
+}
+
+.row:nth-of-type(2) {
+  border-top: 0.06rem solid #dedbdb;
+}

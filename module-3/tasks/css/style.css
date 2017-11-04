@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.article {
+  margin: 0px 0px 22.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 480px;
+  margin: auto;
+}
+
+.h2 {
+  margin-bottom: 22.5px;
+  color: #43506c;
+}
+
+.bold-text {
+  margin-bottom: 24px;
+  color: #263555;
+  font-weight: bold;
+}
+
+.article:first-of-type>.bold-text:first-of-type {
+  margin-top: 14px;
+}
+
+.list {
+  margin-top: 39px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-image: url("../images/arrow.png");
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 21px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}

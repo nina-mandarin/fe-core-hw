@@ -1,0 +1,19 @@
+.but {
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 1px 0;
+  position: fixed;
+  right: 10.4%;
+  bottom: 2%;
+  border-radius: 50%;
+  background-color: #38afe5;
+  text-decoration: none;
+  text-align: center;
+  color: #bae3f6;
+}
+
+.but::before {
+  display: block;
+  content: '\2227';
+}

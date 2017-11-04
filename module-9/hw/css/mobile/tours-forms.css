@@ -1,0 +1,67 @@
+.tour-forms {
+  flex-basis: 23%;
+}
+
+.tour-form-text {
+  font-size: 0.625rem;
+  font-family: var(--font-family-text);
+  color: #4e5050;
+}
+
+.tour-form-text--blue {
+  color: #38afe5;
+}
+
+.tour-forms>.row>[class*="col-12"] {
+  padding-top: 3.75rem;
+}
+
+.tour-form-unit-first {
+  width: 78.76%;
+  margin-left: 20.35%;;
+}
+
+.select {
+  width: 100%;
+  border: 1px solid #d4d0d0;
+  background-color: #fcfafa;
+  font-size: 0.625rem;
+  font-family: var(--font-family-text);
+  color: #868f8f;
+  line-height: 1.25rem;
+}
+
+.tour-field {
+  display: block;
+  width: 100%;
+  min-height: 2.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1.125rem;
+  border: 1px solid #d1cccc;
+  background-color: #e3e2e2;
+  font-size: 0.625rem;
+  font-family: var(--font-family-text);
+  line-height: 1.25rem;
+  color: #912AF1;
+}
+
+.tour-field-search {
+  width: 48.3%;
+  margin-left: 51.7%;
+}
+
+.tour-but {
+  border: 1px solid #ded8d7;
+  padding: 0 0.75rem;
+  background-color: #faf6fb;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-family: var(--font-family-subtitle);
+  color: var(--main-blue-color-text);
+}
+
+.tour-form-list {
+  list-style: none;
+  column-count: 2;
+}

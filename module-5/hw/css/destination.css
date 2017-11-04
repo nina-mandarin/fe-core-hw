@@ -1,0 +1,71 @@
+/*class destination*/
+.distination {
+  padding-top: 60px;
+}
+
+.distination-title {
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: #263555;
+  text-transform: uppercase;
+}
+
+.destination-card {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+}
+
+.destination-card:last-of-type {
+  margin-right: 0;
+}
+
+.distination-image {
+  display: block;
+  width: 100%;
+}
+
+.destination-info {
+  display: none;
+  position: absolute;
+  top: 0%;
+  width: 50%;
+  height: 100%;
+  padding: 0 10px;
+  background-color: #193149;
+}
+
+.distination-subtitle {
+  font-family: "Open Sans";
+  font-size: 30px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.distination-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: justify;
+  color: #cbc6c6;
+}
+
+.distination-link {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 89%;
+  padding: 0 12px;
+  border-radius: 4px;
+  background-color: #fcf5f7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #000;
+}
+
+.destination-card:hover>.destination-info {
+  display: block;
+}

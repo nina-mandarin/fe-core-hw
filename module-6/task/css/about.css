@@ -1,0 +1,137 @@
+.about {
+  width: 768px;
+  margin: auto;
+  padding: 78px 28px 70px 50px;
+}
+
+.about-title {
+  margin-bottom: 40px;
+  font-family: 'Pathway Gothic One';
+  font-size: 28px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #263555;
+}
+
+.about-subtitle {
+  margin-bottom: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #263555;
+}
+
+.about-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #4e5050;
+}
+
+
+/*Agency profile*/
+
+.profile {
+  margin-bottom: 84px;
+}
+
+.profile-img {
+  float: left;
+  width: 50%;
+  margin-right: 18px;
+}
+
+
+/*Our principles*/
+
+.principles {
+  margin-bottom: 98px;
+}
+
+.principles-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  counter-reset: principles-list;
+}
+
+.principles-item>.about-text {
+  margin-left: 36px;
+}
+
+.principles-item::before {
+  display: block;
+  float: left;
+  margin-right: 12px;
+  counter-increment: principles-list;
+  content: counter(principles-list);
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #38afe5;
+  color: #fff;
+}
+
+
+/*What we offer*/
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-offer {
+  flex-basis: 68%;
+}
+
+.offer-list {
+  margin-top: 30px;
+  list-style: none;
+  column-count: 2;
+}
+
+.offer-item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #263555;
+  line-height: 39px;
+}
+
+.offer-item::before {
+  display: inline-block;
+  content: "\2192";
+  margin-right: 10px;
+  color: #38afe5;
+}
+
+.testimonial {
+  flex-basis: 30%;
+}
+
+.testimonial>.about-title {
+  margin-bottom: 13px;
+}
+
+.quote {
+  margin-bottom: 60px;
+  padding: 26px 21px 22px 24px;
+  border: 1px solid #dedbdb;
+  border-radius: 4px;
+}
+
+.quote::before {
+  display: inline-block;
+  content: '\201C';
+}
+
+.quote::after {
+  display: inline-block;
+  content: '\201D';
+}
+
+.about-subtitle>.about-text {
+  display: inline-block;
+  font-size: 11px;
+}
+
+.author {
+  text-align: center;
+  line-height: 30px;
+}

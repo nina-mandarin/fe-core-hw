@@ -1,0 +1,12 @@
+.button-details {
+  display: block;
+  padding: 0 0.75rem;
+  border: 1px solid #c2bcbd;
+  border-radius: 4px;
+  background-color: #fcf5f7;
+  font-family: var(--font-family-text);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #000;
+}

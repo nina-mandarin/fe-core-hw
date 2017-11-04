@@ -1,0 +1,39 @@
+.slider-control {
+  position: absolute;
+  left: 6%;
+  bottom: 12%;
+}
+
+.link {
+  float: left;
+  width: 43px;
+  height: 86px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  line-height: 86px;
+  color: #f2fafd;
+  background-color: #38afe5;
+}
+
+.slider-prev {
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.slider-next {
+  border-radius: 0 100% 100% 0/ 0 50% 50% 0;
+}
+
+.link:hover {
+  background-color: rgba(56, 175, 229, 0.2);
+}
+
+.slider-prev::before {
+  display: inline-block;
+  content: '\2190';
+}
+
+.slider-next::before {
+  display: inline-block;
+  content: '\2192';
+}

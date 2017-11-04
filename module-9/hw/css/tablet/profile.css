@@ -1,0 +1,9 @@
+@media (min-width: 48rem) {
+  .profile-img {
+    width: 22.5rem;
+    float: left;
+    margin-right: 1.625rem;
+    margin-bottom: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}

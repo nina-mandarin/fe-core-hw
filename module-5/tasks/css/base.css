@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to left, #ebf1f6 0%, #89c3eb 36%, #abd3ee 50%, #89c3eb 59%, #d5ebfb 100%);
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+  padding: 0px 60px;
+}
+
+.header {
+  position: relative;
+  padding: 94px 0px 112px 36px;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}

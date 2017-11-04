@@ -1,0 +1,25 @@
+//Utils
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+
+//Base styles
+@import 'base/fonts';
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typography';
+
+//Main components
+@import 'layout/header';
+@import 'layout/submenu';
+@import 'layout/logo';
+@import 'layout/footer';
+@import 'layout/but-up';
+
+//Content
+@import 'components/home-slider';
+@import 'components/home-destination';
+@import 'components/button';
+@import 'components/home-tab';
+@import 'components/home-newsletter';
+@import 'components/gallery';

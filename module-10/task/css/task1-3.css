@@ -1,0 +1,39 @@
+/*Task 2*/
+.box {
+  width: 100%;
+  height: 300px;
+  margin: 30px 0;
+  border: 1px solid red;
+  background-image: url('https://placeimg.com/600/300/nature');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi) {
+  .box {
+    background-image: url('../images/box@2x.jpeg');
+    background-size: cover;
+  }
+}
+
+/*Task 3*/
+.nav {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.icon {
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 50px;
+  height: 50px;
+  fill: #5411a1;
+}
+
+.svg-icon:hover {
+  fill: #0ca10c;
+}

@@ -1,0 +1,15 @@
+/* Width from 480px(30rem)*/
+
+@import 'menu.css';
+@import 'logo.css';
+@import 'submenu.css';
+@import 'footer.css';
+@import 'gallery.css';
+@import 'about.css';
+@import 'profile.css';
+@import 'principles.css';
+@import 'offer.css';
+@import 'testimonial.css';
+@import 'tours.css';
+@import 'button.css';
+@import 'tours-forms.css';

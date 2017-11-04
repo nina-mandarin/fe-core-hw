@@ -1,0 +1,51 @@
+.contact-map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-map>.conact-title {
+  flex-basis: 100%;
+}
+
+.map-image {
+  flex-basis: 67%;
+}
+
+.address {
+  flex-basis: 30%;
+}
+
+.address-table {
+  width: 100%;
+}
+
+.address-table:first-of-type {
+  margin-bottom: 3.25rem;
+}
+
+.table-caption {
+  width: 76%;
+  font-family: var(--font-family-text);
+  font-size: 0.875rem;
+  color: #666565;
+}
+
+.table-text {
+  font-family: var(--font-family-text);
+  font-size: 0.813rem;
+  color: #666565;
+}
+
+.tel {
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  font-family: var(--font-family-text);
+  font-size: 0.813rem;
+  color: #666565;
+}
+
+.table-email {
+  color: #fa7e7e;
+}

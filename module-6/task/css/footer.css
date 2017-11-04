@@ -1,0 +1,39 @@
+/*Social icons*/
+
+.footer-social {
+  display: inline-flex;
+  padding: 5px;
+}
+
+.footer-link {
+  display: block;
+  filter: grayscale(70%);
+}
+
+.bg-twitter {
+  width: 32px;
+  height: 32px;
+  background: url('../images/footer/icon.png') -10px -10px;
+}
+
+.bg-facebook {
+  width: 32px;
+  height: 32px;
+  background: url('../images/footer/icon.png') -62px -10px;
+}
+
+.bg-google {
+  width: 32px;
+  height: 32px;
+  background: url('../images/footer/icon.png') -62px -62px;
+}
+
+.bg-instagram {
+  width: 32px;
+  height: 32px;
+  background: url('../images/footer/icon.png') -10px -62px;
+}
+
+.footer-link:hover {
+  filter: grayscale(0%);
+}

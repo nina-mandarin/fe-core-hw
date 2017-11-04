@@ -1,0 +1,114 @@
+.footer-box {
+  width: 100%;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  background-color: #30455b;
+}
+
+.footer-box__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer-box__item {
+  -webkit-flex-basis: 30%;
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 30%;
+  font-size: 0.875rem;
+  font-family: var(--font-family-secondary);
+  text-transform: uppercase;
+  line-height: 2;
+  color: #ebecee;
+}
+
+.footer-box__contacts {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  font-family: var(--font-family-secondary);
+  color: #ebecee;
+}
+
+.footer-box__inner {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.footer-box__date {
+  margin-left: 1rem;
+  font-size: 0.625rem;
+}
+
+.footer-box__date--telephone::before {
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+  background: url('../../images/contacts.png') -46px -10px;
+}
+
+.footer-box__date--email::before {
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+  background: url('../../images/contacts.png') -10px -10px;
+}
+
+
+/*Social icons*/
+.social {
+  padding: 1.3rem 0 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.social__link {
+  display: block;
+}
+
+.social__icon {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+
+.social__link--hover:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.footer__signature {
+  font-size: 0.625rem;
+  font-family: var(--font-family-text);
+  text-align: center;
+  color: #ecedee;
+}

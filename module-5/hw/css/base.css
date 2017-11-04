@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}

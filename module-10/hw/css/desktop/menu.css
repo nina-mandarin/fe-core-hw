@@ -1,0 +1,35 @@
+@media (min-width: 75rem) {
+  .header {
+    padding-top: 5rem;
+    padding-right: 6.125rem;
+    padding-bottom: 6rem;
+    padding-left: 6.125rem;
+  }
+  .menu-list {
+    width: 100%;
+    margin: 0;
+  }
+  .menu-list__item {
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    margin-right: 3.625rem;
+  }
+  .menu-list__item--mr {
+    margin-right: 14.875rem;
+  }
+  .menu-list__item--lastmr {
+    margin-right: 0;
+  }
+  .menu-list__link {
+    font-size: 1.75rem;
+  }
+  .submenu-list {
+    left: 0;
+    padding: 0.625rem;
+    text-align: center;
+  }
+  .submenu-list__item {
+    font-size: 1.25rem;
+  }
+}

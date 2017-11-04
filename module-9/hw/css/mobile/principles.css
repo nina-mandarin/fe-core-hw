@@ -1,0 +1,33 @@
+/*Our principles*/
+
+.principles {
+  padding-bottom: 3.25rem;
+}
+
+.principles-item {
+  margin-bottom: 1.875rem;
+}
+
+.principles-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.principles>.row {
+  counter-reset: principles-list;
+}
+
+.principles>.row>[class*="col-"]::before {
+  display: block;
+  float: left;
+  margin-right: 0.75rem;
+  counter-increment: principles-list;
+  content: counter(principles-list);
+  padding: 0.3rem 0.6rem;
+  border-radius: 50%;
+  background-color: #38afe5;
+  color: #fff;
+}
+
+.principles-item > .about-text {
+  margin-left: 2.25rem;
+}

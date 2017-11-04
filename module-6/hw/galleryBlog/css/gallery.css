@@ -1,0 +1,29 @@
+.gallery {
+  padding: 6rem 3.75rem;
+  background-color: #fff;
+  flex-grow: 1;
+}
+
+.gallery-title {
+  margin-bottom: 3rem;
+  font-family: var(--title-font-family);
+  font-size: 2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--main-blue-color-text);
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-img {
+  margin-bottom: 2.5rem;
+  flex-basis: 30%;
+}
+
+.gallery-img:nth-of-type(n+7) {
+  margin-bottom: 0px;
+}

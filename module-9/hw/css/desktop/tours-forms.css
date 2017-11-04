@@ -1,0 +1,9 @@
+@media (min-width: 75rem) {
+  .tour-form-list {
+    column-count: 1;
+  }
+  .tour-field-search {
+    width: 100%;
+    margin-left: 0;
+  }
+}
