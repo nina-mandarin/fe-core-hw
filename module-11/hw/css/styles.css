@@ -32,25 +32,6 @@ img {
   content: '';
   clear: both; }
 
-.main {
-  padding-top: 3.625rem;
-  padding-right: 2.5rem;
-  padding-bottom: 4.5rem;
-  padding-left: 2.5rem;
-  background-color: #fff; }
-  @media (min-width: 48rem) {
-    .main {
-      padding-top: 5.125rem;
-      padding-right: 2.875rem;
-      padding-bottom: 4.75rem;
-      padding-left: 2.875rem; } }
-  @media (min-width: 75rem) {
-    .main {
-      padding-top: 5.625rem;
-      padding-right: 3.75rem;
-      padding-bottom: 6.375rem;
-      padding-left: 3.75rem; } }
-
 h1, h2 {
   font-family: "Pathway Gothic One";
   font-size: 2rem;
@@ -116,82 +97,24 @@ h1, h2 {
     .menu-link {
       font-size: 1.75rem; } }
 
-.submenu-list {
-  display: none;
-  position: absolute;
-  left: 20%;
-  z-index: 2;
-  padding: 0.375rem;
-  border-radius: 0.125rem;
-  background-color: #f2f2f3;
-  list-style: none;
-  text-align: right; }
+.main {
+  padding-top: 3.625rem;
+  padding-right: 2.5rem;
+  padding-bottom: 4.5rem;
+  padding-left: 2.5rem;
+  background-color: #fff; }
   @media (min-width: 48rem) {
-    .submenu-list {
-      left: 30%;
-      padding: 0.625rem; } }
+    .main {
+      padding-top: 5.125rem;
+      padding-right: 2.875rem;
+      padding-bottom: 4.75rem;
+      padding-left: 2.875rem; } }
   @media (min-width: 75rem) {
-    .submenu-list {
-      left: 0;
-      padding: 0.625rem;
-      text-align: center; } }
-
-.submenu-item {
-  font-family: "Pathway Gothic One";
-  font-size: 0.875rem;
-  line-height: 1.5;
-  color: #6b7488;
-  text-transform: uppercase; }
-  @media (min-width: 48rem) {
-    .submenu-item {
-      font-size: 1rem; } }
-  @media (min-width: 75rem) {
-    .submenu-item {
-      font-size: 1.25rem; } }
-
-.submenu:hover > .submenu-list {
-  display: block; }
-
-.submenu-list::before {
-  display: block;
-  content: '';
-  position: absolute;
-  bottom: 100%;
-  right: 50%;
-  border-style: solid;
-  border-width: 0 0.125rem 0.25rem 0.125rem;
-  border-color: transparent transparent #f2f2f3 transparent; }
-
-.logo {
-  display: block;
-  width: 5rem;
-  height: 5rem;
-  font-family: "Dorsa";
-  font-size: 2.125rem;
-  line-height: 5rem;
-  color: #263555;
-  margin: auto;
-  background-color: #fff;
-  border-radius: 100%;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center; }
-  @media (min-width: 48rem) {
-    .logo {
-      width: 6.25rem;
-      height: 6.25rem;
-      font-size: 2.75rem;
-      line-height: 6.25rem; } }
-  @media (min-width: 75rem) {
-    .logo {
-      width: 8.625rem;
-      height: 8.625rem;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 3.75rem;
-      line-height: 8.625rem; } }
+    .main {
+      padding-top: 5.625rem;
+      padding-right: 3.75rem;
+      padding-bottom: 6.375rem;
+      padding-left: 3.75rem; } }
 
 .footer-box {
   width: 100%;
@@ -303,6 +226,83 @@ h1, h2 {
   @media (min-width: 48rem) {
     .signature {
       font-size: 0.75rem; } }
+
+.logo {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  font-family: "Dorsa";
+  font-size: 2.125rem;
+  line-height: 5rem;
+  color: #263555;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center; }
+  @media (min-width: 48rem) {
+    .logo {
+      width: 6.25rem;
+      height: 6.25rem;
+      font-size: 2.75rem;
+      line-height: 6.25rem; } }
+  @media (min-width: 75rem) {
+    .logo {
+      width: 8.625rem;
+      height: 8.625rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3.75rem;
+      line-height: 8.625rem; } }
+
+.submenu-list {
+  display: none;
+  position: absolute;
+  left: 20%;
+  z-index: 2;
+  padding: 0.375rem;
+  border-radius: 0.125rem;
+  background-color: #f2f2f3;
+  list-style: none;
+  text-align: right; }
+  @media (min-width: 48rem) {
+    .submenu-list {
+      left: 30%;
+      padding: 0.625rem; } }
+  @media (min-width: 75rem) {
+    .submenu-list {
+      left: 0;
+      padding: 0.625rem;
+      text-align: center; } }
+
+.submenu-item {
+  font-family: "Pathway Gothic One";
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #6b7488;
+  text-transform: uppercase; }
+  @media (min-width: 48rem) {
+    .submenu-item {
+      font-size: 1rem; } }
+  @media (min-width: 75rem) {
+    .submenu-item {
+      font-size: 1.25rem; } }
+
+.submenu:hover > .submenu-list {
+  display: block; }
+
+.submenu-list::before {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 50%;
+  border-style: solid;
+  border-width: 0 0.125rem 0.25rem 0.125rem;
+  border-color: transparent transparent #f2f2f3 transparent; }
 
 .but {
   width: 1.875rem;

@@ -11,12 +11,13 @@
 
 //Main components
 @import 'layout/header';
-@import 'layout/submenu';
-@import 'layout/logo';
+@import 'layout/main';
 @import 'layout/footer';
-@import 'layout/but-up';
 
 //Content
+@import 'components/logo';
+@import 'components/submenu';
+@import 'components/but-up';
 @import 'components/home-slider';
 @import 'components/home-destination';
 @import 'components/button';
