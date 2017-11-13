@@ -1,0 +1,6 @@
+h1, h2 {
+  font-family: $font-family-title;
+  font-size: px-to-rem(32px);
+  text-transform: uppercase;
+  color: $main-color-text;
+}

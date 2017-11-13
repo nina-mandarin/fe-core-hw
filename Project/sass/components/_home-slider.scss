@@ -1,0 +1,117 @@
+.slider {
+  position: relative;
+}
+
+.slider-img {
+  &:hover {
+    filter: brightness(0.6);
+  }
+  @media (min-width: px-to-rem(768px)) {
+    &:hover {
+      filter: brightness(1);
+    }
+  }
+}
+
+.slider-caption {
+  position: absolute;
+  z-index: 2;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  @media (min-width: px-to-rem(768px)) {
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+  }
+}
+
+.slider-heading {
+  display: inline-block;
+  @include padding(0, 0.625rem, 0, 0.625rem);
+  border: 1px solid #ebece9;
+  background-color: #fff;
+  @include font($font-family-title, px-to-rem(10px), 2.5, $main-color-text);
+  text-transform: uppercase;
+  text-align: center;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(16px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(22px);
+  }
+}
+
+.slider-subject {
+  @include padding(0, 0.625rem, 0, 0.625rem);
+  background-color: #38afe5;
+  @include font($font-family-title, px-to-rem(16px), 1.5, #fff);
+  text-transform: uppercase;
+  text-align: center;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(26px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(34px);
+  }
+}
+
+
+//Control buttons
+.slider-control {
+  @include block-size(100%, auto);
+  display: none;
+  position: absolute;
+  left: 4%;
+  bottom: 40%;
+  @media (min-width: px-to-rem(768px)){
+    display: block;
+    position: absolute;
+    left: 6%;
+    bottom: 6%;
+  }
+}
+
+%slider-link {
+  width: 2.7rem;
+  text-decoration: none;
+  color: #f2fafd;
+  @media (min-width: px-to-rem(768px)) {
+    background-color: #38afe5;
+    text-align: center;
+    line-height: 5.4rem;
+    &:hover {
+      background-color: rgba(56, 175, 229, 0.2);
+    }
+  }
+}
+
+.slider-prev {
+  @extend %slider-link;
+  float: left;
+  &::before {
+    display: inline-block;
+    content: '\2190';
+  }
+  @media (min-width: px-to-rem(768px)) {
+    margin-right: 0;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  }
+}
+
+.slider-next {
+  @extend %slider-link;
+  float: right;
+  &::before {
+    display: inline-block;
+    content: '\2192';
+  }
+  @media (min-width: px-to-rem(768px)) {
+    float: left;
+    border-radius: 0 100% 100% 0/ 0 50% 50% 0;
+  }
+}
+
+.slider-img:hover + .slider-control {
+  display: block;
+}

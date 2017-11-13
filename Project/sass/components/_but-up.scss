@@ -1,0 +1,7 @@
+.but {
+  @include block-size(px-to-rem(30px),px-to-rem(30px));
+  position: fixed;
+  right: 4%;
+  bottom: 2%;
+  text-decoration: none;
+}

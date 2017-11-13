@@ -1,0 +1,85 @@
+.newsletter {
+  border: 1px solid #dedbdb;
+}
+
+.newsletter-subtitle {
+  padding-left: px-to-rem(48px);
+  border-bottom: 1px solid #dedbdb;
+  background-color: #fcfafa;
+  @include font($font-family-secondary, px-to-rem(20px), 1.5, #3f4a64);
+  font-weight: normal;
+  text-transform: uppercase;
+  @media (min-width: px-to-rem(1200px)) {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+.subscription {
+  @include padding(px-to-rem(33px), px-to-rem(48px), px-to-rem(30px), px-to-rem(48px));
+  @media (min-width: px-to-rem(768px)) {
+    @include padding(px-to-rem(40px), px-to-rem(18px), px-to-rem(16px), px-to-rem(18px));
+    @include flex($ai: flex-start);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    @include padding(px-to-rem(42px), px-to-rem(15px), px-to-rem(30px), px-to-rem(15px));
+    @include flex($wrap: wrap);
+  }
+}
+
+.feedback {
+  padding-bottom:  px-to-rem(24px);
+  @media (min-width: px-to-rem(768px)) {
+    flex-basis: 36%;
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    flex-basis: 100%;
+  }
+}
+
+.label-email {
+  @include font($font-family-text, px-to-rem(15px), 1.5, $main-color-text);
+}
+
+.email {
+  width: 100%;
+  margin-top: px-to-rem(24px);
+  border: 1px solid #dedbdb;
+  @include font($font-family-text, px-to-rem(12px), 2, #868f8f);
+}
+
+.newsletter-list {
+  list-style: none;
+  column-count: 2;
+  @media (min-width: px-to-rem(768px)) {
+    flex-basis: 60%;
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    column-count: 1;
+    flex-basis: 100%;
+  }
+}
+
+.newsletter-item {
+  @include font($font-family-text, px-to-rem(12px), 2.2, $main-color-text);
+  &::before {
+    display: inline-block;
+    @include block-size(px-to-rem(10px), px-to-rem(10px));
+    margin-right: px-to-rem(12px);
+    content: '';
+    @include background-img('../images/right-arrow.svg');
+    //fill: #5abce9;
+  }
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(14px);
+    &::before {
+      @include block-size(px-to-rem(12px), px-to-rem(12px));
+    }
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(15px);
+    &::before {
+      @include block-size(px-to-rem(13px), px-to-rem(13px));
+    }
+  }
+}

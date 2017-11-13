@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  padding-bottom: px-to-rem(22px);
+  background-color: #90CAF9;
+  @include background-img ('../images/background.jpg');
+  font-family: $font-family-text;
+  font-size: px-to-rem(16px);
+}
+
+.container  {
+  min-width: px-to-rem(480px);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}

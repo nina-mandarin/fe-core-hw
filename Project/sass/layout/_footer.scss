@@ -1,0 +1,106 @@
+//Footer menu and contacts
+.footer-box {
+  width: 100%;
+  @include padding(2rem, 1rem, 2rem, 1rem);
+  background-color: #30455b;
+}
+
+.footer-list {
+  @include flex(wrap);
+  list-style: none;
+}
+
+.footer-item {
+  flex-basis: 30%;
+  @include font($font-family-secondary, px-to-rem(14px), 2, #ebecee);
+  text-transform: uppercase;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(16px);
+  }
+}
+
+.footer-contacts {
+  margin-top: 1rem;
+  @include flex($jc: flex-start, $ai: flex-end);
+  @include font($font-family-secondary, $fcolor: #ebecee);
+  @media (min-width: px-to-rem(768px)) {
+    margin-top: 0;
+    display: block;
+  }
+}
+
+.contact-inner {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(18px);
+  }
+}
+
+%contact-data {
+  margin-left: 1rem;
+  font-size: 0.625rem;
+  @media (min-width: px-to-rem(768px)) {
+    margin-left: 0;
+    font-size: 0.75rem;
+  }
+}
+
+.contant-telephone {
+  @extend %contact-data;
+  &::before {
+    display: inline-block;
+    content: '';
+    @include block-size(px-to-rem(16px), px-to-rem(16px));
+    margin-right: 0.25rem;
+    vertical-align: middle;
+    background: url('../images/contacts.png') -46px -10px;
+  }
+  @media (min-width: px-to-rem(768px)) {
+    margin-top: 1rem;
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.contact-email {
+  @extend %contact-data;
+  &::before {
+    display: inline-block;
+    content: '';
+    @include block-size(px-to-rem(16px),
+    px-to-rem(16px));
+    margin-right: 0.25rem;
+    vertical-align: middle;
+    background: url('../images/contacts.png') -10px -10px;
+  }
+  @media (min-width: px-to-rem(768px)) {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+//Social icons
+.footer-social {
+  @include padding(1.3rem, 0, 1rem, 0);
+  @include flex($jc: center);
+}
+
+.social-link {
+  @include block-size(px-to-rem(40px), px-to-rem(40px));
+  display: block;
+  &:hover {
+    transform: scale(1.5);
+  }
+}
+
+//Signature
+.signature {
+  @include font($font-family-text, px-to-rem(10px),$fcolor: #ecedee);
+  text-align: center;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(12px);
+  }
+}
