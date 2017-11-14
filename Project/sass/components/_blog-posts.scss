@@ -1,0 +1,118 @@
+.blog-title {
+  margin-bottom: px-to-rem(40px);
+  font-weight: normal;
+}
+
+//Posts
+.post-unit {
+  &:first-of-type {
+    padding-bottom: px-to-rem(33px);
+    border-bottom: 1px solid #dedbdb;
+  }
+  &:nth-of-type(n+2) {
+    padding-top: px-to-rem(33px);
+  }
+  @media (min-width: px-to-rem(768px)) {
+    @include flex(wrap, space-between, flex-start);
+  }
+}
+
+.post-subtitle {
+  margin-bottom: px-to-rem(10px);
+  @include font($fsize: px-to-rem(14px));
+  font-weight: normal;
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(13px);
+  }
+}
+
+.post-text {
+  @include font($font-family-text, px-to-rem(11px), 1.5, #4e5050);
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(10px);
+  }
+}
+
+//post-header
+.post-header {
+  @include flex;
+  width: 100%;
+  margin-bottom: px-to-rem(18px);
+  @media (min-width: px-to-rem(768px)) {
+    padding-right: px-to-rem(48px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    padding-right: px-to-rem(60px);
+  }
+}
+
+.post-header-date {
+  @include flex($jc: center);
+  flex-direction: column;
+  @include block-size(px-to-rem(33px), px-to-rem(33px));
+  margin-right: px-to-rem(10px);
+  @include font($font-family-text, px-to-rem(10px), 1, #fff);
+  text-transform: uppercase;
+  background-color: #38afe5;
+  border-radius: 50%;
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(9px);
+  }
+}
+
+.post-header-body {
+  flex-grow: 1;
+  @include flex($ai: flex-start);
+  flex-direction: column;
+}
+
+.post-header-info {
+  @include flex;
+  width: 100%;
+}
+
+.post-header-info>.post-text {
+  color: #868f8f;
+}
+
+
+//post-img
+.post-img-one {
+  margin-top: -40%;
+  margin-bottom: px-to-rem(24px);
+  clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  @media (min-width: px-to-rem(768px)) {
+    flex-basis: 42%;
+    margin: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.post-img-two {
+  margin-top: -25%;
+  margin-bottom: -10%;
+  clip-path: polygon(0% 30%, 100% 30%, 100% 80%, 0% 80%);
+  @media (min-width: px-to-rem(768px)) {
+    flex-basis: 42%;
+    margin: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+
+//post-article
+.post-article {
+  @media (min-width: px-to-rem(768px)) {
+    flex-basis: 50%;
+  }
+}
+
+//button
+.post-btn {
+  width: 60%;
+  margin: px-to-rem(24px) auto 0;
+  @media (min-width: px-to-rem(768px)) {
+    width: auto;
+    margin: px-to-rem(24px) 0 0;
+  }
+}

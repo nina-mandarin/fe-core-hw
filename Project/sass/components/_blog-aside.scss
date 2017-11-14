@@ -1,0 +1,55 @@
+//Aside
+
+.aside {
+  padding-top: px-to-rem(66px);
+  @media (min-width: px-to-rem(768px)) {
+    @include flex($ai: flex-start);
+    padding-top: px-to-rem(72px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    padding-top: 0;
+    flex-direction: column;
+  }
+}
+
+.categories {
+  margin-bottom: px-to-rem(60px);
+  @media (min-width: px-to-rem(768px)) {
+    margin-bottom: 0;
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    margin-bottom: px-to-rem(54px);
+  }
+}
+
+.categories-list {
+  column-count: 2;
+  list-style: none;
+  @media (min-width: px-to-rem(768px)) {
+    column-count: 1;
+  }
+}
+
+.archive-list {
+  column-count: 3;
+  list-style: none;
+  @media (min-width: px-to-rem(768px)) {
+    column-count: 2;
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    column-count: 1;
+  }
+}
+
+.aside-item {
+  @include font($font-family-text, px-to-rem(12px), 2, $main-color-text);
+  &::before {
+    display: inline-block;
+    margin-right: 0.75rem;
+    content: '\2192';
+    color: #56bbe9;
+  }
+  @media (min-width: px-to-rem(768px)) {
+    font-size:  px-to-rem(13px);
+  }
+}
