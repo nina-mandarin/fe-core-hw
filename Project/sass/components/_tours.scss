@@ -1,0 +1,107 @@
+.tour-title {
+  margin-bottom: px-to-rem(40px);
+  @media (min-width: px-to-rem(1200px)) {
+    margin-bottom: px-to-rem(45px);
+  }
+}
+
+.tour-text {
+  @include font($font-family-text, px-to-rem(14px), 1.5, #4e5050);
+  @media (min-width: px-to-rem(768px)) {
+    font-size:px-to-rem(12px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(10px);
+  }
+}
+
+
+/*Tours*/
+
+.tour-content {
+  padding-bottom: px-to-rem(50px);
+  @media (min-width: px-to-rem(1200px)) {
+    padding-bottom: 0;
+  }
+}
+
+.tour>.row [class*="col-"] {
+  margin-bottom: px-to-rem(50px);
+  @media (min-width: px-to-rem(1200px)) {
+    margin-bottom: px-to-rem(38px);
+  }
+}
+
+.tour>.row [class*="col-"]:nth-of-type(n+5) {
+  display: none;
+  @media (min-width: px-to-rem(768px)) {
+    display: flex;
+  }
+}
+
+.tour>.row [class*="col-"]:nth-of-type(4) {
+  margin-bottom: 0;
+  @media (min-width: px-to-rem(768px)) {
+    margin-bottom: px-to-rem(50px);
+  }
+}
+
+.tour>.row [class*="col-"]:nth-last-of-type(-n+2) {
+  @media (min-width: px-to-rem(768px)) {
+    margin-bottom: 0;
+  }
+}
+
+.tour-card {
+  @include flex($ai: flex-start);
+  @media (min-width: px-to-rem(768px)) {
+    width: 100%;
+  }
+}
+
+.tour-img {
+  flex-basis: 49%;
+  @media (min-width: px-to-rem(1200px)) {
+    flex-basis: 48%;
+  }
+}
+
+.tour-desc {
+  flex-basis: 46%;
+  @media (min-width: px-to-rem(1200px)) {
+    flex-basis: 45%;
+  }
+}
+
+.tour-card-subtitle {
+  margin-bottom: px-to-rem(12px);
+  @include font($fsize: px-to-rem(32px));
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(14px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(12px);
+  }
+}
+
+.tour-text-price {
+  display: block;
+  font-size: px-to-rem(18px);
+  text-transform: uppercase;
+  color: #38afe5;
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(16px);
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    font-size: px-to-rem(14px);
+  }
+}
+
+.tour-desc>.tour-text:first-of-type {
+  margin-bottom: px-to-rem(12px);
+}
+
+.tour-desc>.button {
+  margin-top: px-to-rem(16px);
+  margin-left: auto;
+}

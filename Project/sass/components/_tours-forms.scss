@@ -1,0 +1,60 @@
+.tour-form-text {
+  @include font($font-family-text, px-to-rem(10px), 1.5, #4e5050);
+  &--blue {
+    color: #38afe5;
+  }
+}
+
+.tour-forms>.row>[class*="col-12"] {
+  padding-top: px-to-rem(60px);
+}
+
+.tour-forms>.row>[class*="col-xl"]:last-of-type {
+  @media (min-width: px-to-rem(1200px)) {
+    padding-top: px-to-rem(18px);
+  }
+}
+
+.tour-form-unit-first {
+  width: 78.76%;
+  margin-left: 20.35%;
+  @media (min-width: px-to-rem(768px)) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.select {
+  width: 100%;
+  @include font($font-family-text, px-to-rem(10px), 2, #868f8f);
+  background-color: #fcfafa;
+  border: 1px solid #d4d0d0;
+}
+
+.tour-field {
+  display: block;
+  width: 100%;
+  min-height: px-to-rem(40px);
+  margin-top: px-to-rem(4px);
+  margin-bottom: px-to-rem(18px);
+  @include font($font-family-text, px-to-rem(10px), 2, #912AF1);
+  background-color: #e3e2e2;
+  border: 1px solid #d1cccc;
+}
+
+.tour-field-search {
+  width: 48.3%;
+  margin-left: 51.7%;
+  @media (min-width: px-to-rem(1200px)) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.tour-form-list {
+  list-style: none;
+  column-count: 2;
+  @media (min-width: px-to-rem(1200px)) {
+    column-count: 1;
+  }
+}

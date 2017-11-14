@@ -1,9 +1,9 @@
-.button-details {
+.button {
   display: block;
-  @include padding(0, 0.75rem, 0, 0.75rem);
+  @include padding(0, px-to-rem(12px), 0, px-to-rem(12px));
   border: 1px solid #c2bcbd;
-  border-radius: 0.25rem;
+  border-radius: px-to-rem(4px);
   background-color: #fcf5f7;
-  @include font($font-family-text, 0.75rem,1.5, #000);
+  @include font($font-family-text, px-to-rem(12px),1.5, #000);
   text-decoration: none;
 }
