@@ -1,0 +1,23 @@
+.about-title {
+  margin-bottom: px-to-rem(40px);
+  font-weight: normal;
+}
+
+.about-subtitle {
+  margin-bottom: px-to-rem(16px);
+  @include font($font-family-secondary, px-to-rem(14px), 1.5, $main-color-text);
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(16px);
+  }
+}
+
+.about-text {
+  @include font($font-family-text, px-to-rem(12px), 1.5, #4e5050);
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(14px);
+  }
+}
+
+.row:nth-of-type(2) {
+  border-top: px-to-rem(2px) solid #dedbdb;
+}

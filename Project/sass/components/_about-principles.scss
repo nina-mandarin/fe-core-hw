@@ -1,0 +1,42 @@
+/*Our principles*/
+
+.principles {
+  padding-bottom: px-to-rem(52px);
+}
+
+.principles-item {
+  margin-bottom: px-to-rem(30px);
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.principles>.row {
+  counter-reset: principles-list;
+}
+
+.principles>.row>[class*="col-"]::before {
+  display: block;
+  float: left;
+  margin-right: px-to-rem(12px);
+  counter-increment: principles-list;
+  content: counter(principles-list);
+  padding: px-to-rem(4px) px-to-rem(10px);
+  border-radius: 50%;
+  background-color: #38afe5;
+  color: #fff;
+}
+
+.principles>.row>[class*="col-"]:nth-of-type(n+2) {
+  margin-top: px-to-rem(30px);
+  @media (min-width: px-to-rem(768px)) {
+    margin-top: 0;
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    margin-top: px-to-rem(36px);
+  }
+}
+
+.principles-item>.about-text {
+  margin-left: px-to-rem(40px);
+}

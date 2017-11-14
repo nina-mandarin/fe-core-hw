@@ -1,0 +1,26 @@
+//Agency profile
+
+.profile {
+  margin-bottom: px-to-rem(84px);
+}
+
+.profile-img {
+  margin-bottom: -45%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 35%, 0% 35%);
+}
+
+@media (min-width: px-to-rem(768px)) {
+  .profile-img {
+    float: left;
+    width: px-to-rem(360px);
+    margin-right: px-to-rem(26px);
+    margin-bottom: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+@media (min-width: px-to-rem(1200px)) {
+  .profile {
+    margin-bottom: 0;
+  }
+}

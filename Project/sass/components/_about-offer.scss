@@ -1,0 +1,27 @@
+/*What we offer*/
+
+.offer {
+  padding-top: px-to-rem(52px);
+  @media (min-width: px-to-rem(1200px)) {
+    padding-top: px-to-rem(60px);
+  }
+}
+
+.offer-list {
+  margin-top: px-to-rem(32px);
+  list-style: none;
+  column-count: 2;
+}
+
+.offer-item {
+  @include font($font-family-text, px-to-rem(14px), 2, $main-color-text);
+  &::before {
+    display: inline-block;
+    content: "\2192";
+    margin-right: px-to-rem(10px);
+    color: #38afe5;
+  }
+  @media (min-width: px-to-rem(768px)) {
+    font-size: px-to-rem(15px);
+  }
+}
