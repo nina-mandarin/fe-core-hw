@@ -1,0 +1,28 @@
+.contact-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  @include font($font-family-text, px-to-rem(13px), 2, $main-color-text);
+  background-color: #fcfafa;
+  border: 1px solid #d4d0d0;
+}
+
+.contact-btn {
+  display: inline-block;
+  &:first-of-type {
+    margin-left: 65%;
+  }
+  &:last-of-type {
+  margin-left: px-to-rem(18px);
+  }
+  @media (min-width: px-to-rem(768px)) {
+    &:first-of-type {
+      margin-left: 55%;
+    }
+  }
+  @media (min-width: px-to-rem(1200px)) {
+    &:first-of-type {
+      margin-left: 40%;
+    }
+  }
+}
